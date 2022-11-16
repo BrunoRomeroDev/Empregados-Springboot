@@ -28,6 +28,8 @@ public class ApplicationControllerAdvice extends ResponseEntityExceptionHandler 
 			return ResponseEntity.status(HttpStatus.NOT_FOUND).body(er);
 	   		
 	   	}
+	   	
+	   	
 	
 	   	
 }

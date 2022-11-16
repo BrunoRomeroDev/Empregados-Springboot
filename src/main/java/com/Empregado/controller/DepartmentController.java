@@ -35,7 +35,7 @@ public class DepartmentController {
 		Optional<Department> dep = departmentrepository.findById(id);
 		
 		if(dep != null) {
-			ResponseEntity.status(HttpStatus.BAD_REQUEST).body(dep);
+			ResponseEntity.status(HttpStatus.OK).body(dep);
 		}
 		 return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(dep); 
 	}

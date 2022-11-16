@@ -29,6 +29,6 @@ public class Department {
 	private Integer id;
 	@Column(name = "nome")
 	private String name;
-		
+
 
 }
